@@ -1,4 +1,4 @@
-$Tk::Calculator::RPN::HP::VERSION = '0.5';
+$Tk::Calculator::RPN::HP::VERSION = '0.6';
 
 package Tk::Calculator::RPN::HP;
 
@@ -731,7 +731,7 @@ calculator.
 
 Subclasses of Tk::Calculator::RPN::HP have this basic structure:
 
- $Tk::Calculator::RPN::HP_21::VERSION = '0.5';
+ $Tk::Calculator::RPN::HP_21::VERSION = '0.6';
 
  package Tk::Calculator::RPN::HP_21;
 

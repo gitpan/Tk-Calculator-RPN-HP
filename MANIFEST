@@ -1,4 +1,3 @@
-Getopt/EvaP.pm
 Makefile.PL
 MANIFEST
 README
@@ -14,6 +13,4 @@ Tk/Calculator/RPN/images/pi.xbm
 Tk/Calculator/RPN/images/rold.xbm
 Tk/Calculator/RPN/images/rolu.xbm
 Tk/Calculator/RPN/images/swap.xbm
-Tk/LCD.pm
-Tk/SlideSwitch.pm
 tkhpcalc

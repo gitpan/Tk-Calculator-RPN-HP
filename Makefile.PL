@@ -11,7 +11,7 @@ WriteMakefile(
         'Getopt::EvaP'         => 2.3.5,
         'Tk::LCD'              => 1.2,
         'Tk::ProgressBar::Mac' => 1.1,
-        'Tk::SlideSwitch'      => 0.5,
+        'Tk::SlideSwitch'      => 1.1,
         'Tk::Splashscreen'     => 1.0,
     },
     PM           => {
@@ -26,9 +26,6 @@ WriteMakefile(
         "Tk/Calculator/RPN/images/rold.xbm"           => "\$(INST_LIBDIR)/images/rold.xbm",
         "Tk/Calculator/RPN/images/rolu.xbm"           => "\$(INST_LIBDIR)/images/rolu.xbm",
         "Tk/Calculator/RPN/images/swap.xbm"           => "\$(INST_LIBDIR)/images/swap.xbm",
-        "Tk/SlideSwitch.pm"                           => "\$(INST_LIBDIR)/../../SlideSwitch.pm",
-        "Tk/LCD.pm"                                   => "\$(INST_LIBDIR)/../../LCD.pm",
-        "Getopt/EvaP.pm"                              => "\$(INST_LIBDIR)/../../../Getopt/EvaP.pm",
     },
     VERSION_FROM => "Tk/Calculator/RPN/$pm.pm",
     dist         => {COMPRESS => 'gzip', SUFFIX => 'gz'},
