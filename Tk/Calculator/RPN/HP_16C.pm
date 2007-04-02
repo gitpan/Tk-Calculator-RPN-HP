@@ -1,4 +1,4 @@
-$Tk::Calculator::RPN::HP_16C::VERSION = '1.0';
+$Tk::Calculator::RPN::HP_16C::VERSION = '1.2';
 
 package Tk::Calculator::RPN::HP_16C;
 

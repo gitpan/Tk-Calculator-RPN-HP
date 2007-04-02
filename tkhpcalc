@@ -75,7 +75,7 @@ end-of-PDT
 
     @MM = split /\n/, <<"end-of-MM";
 
-        tkhpcal
+        tkhpcal $Tk::Calculator::RPN::HP::VERSION
 
         This program creates graphical representations of various
 	Hewlett-Packard Reverse Polish Notation (RPN) calculators.

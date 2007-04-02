@@ -1,6 +1,7 @@
 Makefile.PL
 MANIFEST
 README
+Changes
 test.pl
 Tk/Calculator/RPN/HP.pm
 Tk/Calculator/RPN/HP_16C.pm
