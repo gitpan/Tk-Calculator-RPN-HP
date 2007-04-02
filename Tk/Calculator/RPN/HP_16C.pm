@@ -1,4 +1,4 @@
-$Tk::Calculator::RPN::HP_16C::VERSION = '0.6';
+$Tk::Calculator::RPN::HP_16C::VERSION = '1.0';
 
 package Tk::Calculator::RPN::HP_16C;
 
@@ -282,3 +282,18 @@ sub roll_stack {
 } # end rollstack
 
 1;
+
+=head1 AUTHOR
+
+sol0@Lehigh.EDU
+
+Copyright (C) 2001 - 2007, Steve Lidie. All rights reserved.
+
+This program is free software; you can redistribute it and/or
+modify it under the same terms as Perl itself.
+
+=head1 KEYWORDS
+
+calculator, HP, RPN, HP 16C
+
+=cut

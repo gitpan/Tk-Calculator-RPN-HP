@@ -1,4 +1,4 @@
-$Tk::Calculator::RPN::HP_21::VERSION = '0.6';
+$Tk::Calculator::RPN::HP_21::VERSION = '1.0';
 
 package Tk::Calculator::RPN::HP_21;
 
@@ -335,3 +335,18 @@ sub tanatan {
 } # end tanatan
 
 1;
+
+=head1 AUTHOR
+
+sol0@Lehigh.EDU
+
+Copyright (C) 2001 - 2007, Steve Lidie. All rights reserved.
+
+This program is free software; you can redistribute it and/or
+modify it under the same terms as Perl itself.
+
+=head1 KEYWORDS
+
+calculator, HP, RPN, HP 21
+
+=cut

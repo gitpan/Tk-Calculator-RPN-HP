@@ -1,4 +1,4 @@
-$Tk::Calculator::RPN::HP::VERSION = '0.6';
+$Tk::Calculator::RPN::HP::VERSION = '1.0';
 
 package Tk::Calculator::RPN::HP;
 
@@ -158,6 +158,7 @@ sub Populate {
 
     my $calc = 'Tk::Calculator::RPN::HP_' . uc($self->{TYPE});
     eval "require $calc";
+    die "Tk::Calculator::RPN::HP::HP.pm, error loading '$calc': $@" if $@;
     bless $self, $calc;
 
     $calc->InitClass($self->MainWindow); # called once/class/MainWindow
@@ -731,7 +732,7 @@ calculator.
 
 Subclasses of Tk::Calculator::RPN::HP have this basic structure:
 
- $Tk::Calculator::RPN::HP_21::VERSION = '0.6';
+ $Tk::Calculator::RPN::HP_21::VERSION = '1.0';
 
  package Tk::Calculator::RPN::HP_21;
 
@@ -883,7 +884,7 @@ This complete example incorprates a splashscreen with a progressbar.
 
 sol0@Lehigh.EDU
 
-Copyright (C) 2001 - 2003, Steve Lidie. All rights reserved.
+Copyright (C) 2001 - 2007, Steve Lidie. All rights reserved.
 
 This program is free software; you can redistribute it and/or
 modify it under the same terms as Perl itself.

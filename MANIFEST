@@ -14,3 +14,5 @@ Tk/Calculator/RPN/images/rold.xbm
 Tk/Calculator/RPN/images/rolu.xbm
 Tk/Calculator/RPN/images/swap.xbm
 tkhpcalc
+tkhpcalc-slim
+META.yml                                 Module meta-data (added by MakeMaker)
